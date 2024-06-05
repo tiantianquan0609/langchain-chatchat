@@ -1,0 +1,29 @@
+2024-04-15 11:16:40 | INFO | stdout | INFO:     127.0.0.1:35844 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 11:17:09 | INFO | stdout | INFO:     127.0.0.1:53704 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 11:17:19 | INFO | stdout | INFO:     127.0.0.1:33572 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 11:21:01 | INFO | stdout | INFO:     127.0.0.1:52222 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 11:21:23 | INFO | stdout | INFO:     127.0.0.1:53712 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 11:21:48 | INFO | stdout | INFO:     127.0.0.1:53696 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 14:02:27 | INFO | stdout | INFO:     127.0.0.1:53248 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 14:02:35 | INFO | stdout | INFO:     127.0.0.1:59576 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 14:02:44 | INFO | stdout | INFO:     127.0.0.1:59582 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 14:03:03 | INFO | stdout | INFO:     127.0.0.1:54578 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 15:17:06 | INFO | stdout | INFO:     127.0.0.1:52752 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 15:18:50 | INFO | stdout | INFO:     127.0.0.1:44156 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 15:19:39 | INFO | stdout | INFO:     127.0.0.1:47662 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 15:21:12 | INFO | stdout | INFO:     127.0.0.1:36636 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 15:21:31 | INFO | stdout | INFO:     127.0.0.1:59036 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 15:23:16 | INFO | stdout | INFO:     127.0.0.1:42868 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-15 15:23:25 | INFO | stdout | INFO:     127.0.0.1:42874 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-15 15:23:52 | INFO | stdout | INFO:     127.0.0.1:36812 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 15:24:13 | INFO | stdout | INFO:     127.0.0.1:60880 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-15 18:31:38 | INFO | stdout | INFO:     127.0.0.1:51916 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-15 19:01:15 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m2423282[0m]
+2024-04-15 19:01:15 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-04-15 19:01:15 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-04-15 19:01:15 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20000[0m (Press CTRL+C to quit)
+2024-04-16 11:20:46 | ERROR | stderr | INFO:     Started server process [2663517]
+2024-04-16 11:20:46 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-16 11:20:46 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-16 11:20:46 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:20000 (Press CTRL+C to quit)
+2024-04-16 14:25:49 | INFO | stdout | INFO:     127.0.0.1:35310 - "POST /v1/chat/completions HTTP/1.1" 200 OK

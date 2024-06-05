@@ -1,0 +1,60 @@
+2024-02-22 15:07:14 | INFO | model_worker | Loading the model ['Qwen-14B-Chat'] on worker 18176634 ...
+2024-02-22 15:07:15 | ERROR | stderr | Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]
+2024-02-22 15:07:16 | ERROR | stderr | Loading checkpoint shards:   7%|▋         | 1/15 [00:00<00:08,  1.67it/s]
+2024-02-22 15:07:25 | ERROR | stderr | Loading checkpoint shards:  13%|█▎        | 2/15 [00:10<01:17,  5.96s/it]
+2024-02-22 15:07:27 | ERROR | stderr | Loading checkpoint shards:  20%|██        | 3/15 [00:12<00:49,  4.14s/it]
+2024-02-22 15:07:37 | ERROR | stderr | Loading checkpoint shards:  27%|██▋       | 4/15 [00:22<01:09,  6.35s/it]
+2024-02-22 15:07:50 | ERROR | stderr | Loading checkpoint shards:  33%|███▎      | 5/15 [00:35<01:27,  8.78s/it]
+2024-02-22 15:07:54 | ERROR | stderr | Loading checkpoint shards:  40%|████      | 6/15 [00:39<01:04,  7.20s/it]
+2024-02-22 15:08:06 | ERROR | stderr | Loading checkpoint shards:  47%|████▋     | 7/15 [00:51<01:10,  8.75s/it]
+2024-02-22 15:08:19 | ERROR | stderr | Loading checkpoint shards:  53%|█████▎    | 8/15 [01:03<01:10, 10.04s/it]
+2024-02-22 15:08:30 | ERROR | stderr | Loading checkpoint shards:  60%|██████    | 9/15 [01:15<01:02, 10.37s/it]
+2024-02-22 15:08:31 | ERROR | stderr | Loading checkpoint shards:  67%|██████▋   | 10/15 [01:16<00:37,  7.56s/it]
+2024-02-22 15:08:40 | ERROR | stderr | Loading checkpoint shards:  73%|███████▎  | 11/15 [01:24<00:31,  7.79s/it]
+2024-02-22 15:08:58 | ERROR | stderr | Loading checkpoint shards:  80%|████████  | 12/15 [01:43<00:33, 11.01s/it]
+2024-02-22 15:09:17 | ERROR | stderr | Loading checkpoint shards:  87%|████████▋ | 13/15 [02:01<00:26, 13.24s/it]
+2024-02-22 15:09:35 | ERROR | stderr | Loading checkpoint shards:  93%|█████████▎| 14/15 [02:19<00:14, 14.79s/it]
+2024-02-22 15:09:49 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [02:34<00:00, 14.72s/it]
+2024-02-22 15:09:49 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [02:34<00:00, 10.29s/it]
+2024-02-22 15:09:49 | ERROR | stderr | 
+2024-02-22 15:09:58 | INFO | model_worker | Register to controller
+2024-02-22 15:09:58 | ERROR | stderr | INFO:     Started server process [1699047]
+2024-02-22 15:09:58 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-02-22 15:09:58 | ERROR | stderr | INFO:     Application startup complete.
+2024-02-22 15:09:58 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:20002 (Press CTRL+C to quit)
+2024-02-22 15:10:41 | INFO | stdout | INFO:     127.0.0.1:59862 - "POST /worker_get_conv_template HTTP/1.1" 200 OK
+2024-02-22 15:10:41 | INFO | stdout | INFO:     127.0.0.1:59876 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:10:41 | INFO | stdout | INFO:     127.0.0.1:59884 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:10:41 | INFO | stdout | INFO:     127.0.0.1:59892 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:10:44 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=4, locked=False). call_ct: 1. worker_id: 18176634. 
+2024-02-22 15:10:49 | INFO | stdout | INFO:     127.0.0.1:37442 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:10:49 | INFO | stdout | INFO:     127.0.0.1:37450 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:10:50 | INFO | stdout | INFO:     127.0.0.1:37456 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:10:56 | INFO | stdout | INFO:     127.0.0.1:50924 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:10:56 | INFO | stdout | INFO:     127.0.0.1:50938 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:10:56 | INFO | stdout | INFO:     127.0.0.1:50942 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:11:03 | INFO | stdout | INFO:     127.0.0.1:50944 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:11:03 | INFO | stdout | INFO:     127.0.0.1:50946 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:11:03 | INFO | stdout | INFO:     127.0.0.1:50950 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:11:14 | INFO | stdout | INFO:     127.0.0.1:59270 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:11:14 | INFO | stdout | INFO:     127.0.0.1:59282 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:11:14 | INFO | stdout | INFO:     127.0.0.1:59286 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:11:23 | INFO | stdout | INFO:     127.0.0.1:32822 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:11:23 | INFO | stdout | INFO:     127.0.0.1:32836 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:11:23 | INFO | stdout | INFO:     127.0.0.1:32848 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:11:26 | INFO | stdout | INFO:     127.0.0.1:57202 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:11:26 | INFO | stdout | INFO:     127.0.0.1:57212 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:11:26 | INFO | stdout | INFO:     127.0.0.1:57216 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:11:29 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: 18176634. 
+2024-02-22 15:11:30 | INFO | stdout | INFO:     127.0.0.1:57218 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:11:30 | INFO | stdout | INFO:     127.0.0.1:57226 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:11:30 | INFO | stdout | INFO:     127.0.0.1:57238 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:12:14 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: 18176634. 
+2024-02-22 15:12:23 | INFO | stdout | INFO:     127.0.0.1:43352 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:12:23 | INFO | stdout | INFO:     127.0.0.1:43368 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:12:23 | INFO | stdout | INFO:     127.0.0.1:43372 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:12:28 | INFO | stdout | INFO:     127.0.0.1:39722 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:12:28 | INFO | stdout | INFO:     127.0.0.1:39728 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:12:28 | INFO | stdout | INFO:     127.0.0.1:39740 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:12:59 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: 18176634. 
+2024-02-22 15:13:44 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: 18176634. 

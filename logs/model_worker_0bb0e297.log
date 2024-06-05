@@ -1,0 +1,260 @@
+2024-04-16 11:20:46 | INFO | model_worker | Loading the model ['Qwen-14B-Chat'] on worker 0bb0e297 ...
+2024-04-16 11:20:47 | ERROR | stderr | Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]
+2024-04-16 11:20:48 | ERROR | stderr | Loading checkpoint shards:   7%|▋         | 1/15 [00:01<00:16,  1.14s/it]
+2024-04-16 11:20:49 | ERROR | stderr | Loading checkpoint shards:  13%|█▎        | 2/15 [00:02<00:13,  1.03s/it]
+2024-04-16 11:20:50 | ERROR | stderr | Loading checkpoint shards:  20%|██        | 3/15 [00:03<00:11,  1.01it/s]
+2024-04-16 11:20:51 | ERROR | stderr | Loading checkpoint shards:  27%|██▋       | 4/15 [00:03<00:10,  1.03it/s]
+2024-04-16 11:20:52 | ERROR | stderr | Loading checkpoint shards:  33%|███▎      | 5/15 [00:05<00:10,  1.01s/it]
+2024-04-16 11:20:53 | ERROR | stderr | Loading checkpoint shards:  40%|████      | 6/15 [00:05<00:08,  1.02it/s]
+2024-04-16 11:20:54 | ERROR | stderr | Loading checkpoint shards:  47%|████▋     | 7/15 [00:07<00:08,  1.00s/it]
+2024-04-16 11:20:55 | ERROR | stderr | Loading checkpoint shards:  53%|█████▎    | 8/15 [00:07<00:06,  1.04it/s]
+2024-04-16 11:20:56 | ERROR | stderr | Loading checkpoint shards:  60%|██████    | 9/15 [00:08<00:05,  1.05it/s]
+2024-04-16 11:20:57 | ERROR | stderr | Loading checkpoint shards:  67%|██████▋   | 10/15 [00:09<00:04,  1.06it/s]
+2024-04-16 11:20:58 | ERROR | stderr | Loading checkpoint shards:  73%|███████▎  | 11/15 [00:10<00:03,  1.07it/s]
+2024-04-16 11:20:59 | ERROR | stderr | Loading checkpoint shards:  80%|████████  | 12/15 [00:11<00:02,  1.05it/s]
+2024-04-16 11:21:00 | ERROR | stderr | Loading checkpoint shards:  87%|████████▋ | 13/15 [00:12<00:01,  1.04it/s]
+2024-04-16 11:21:01 | ERROR | stderr | Loading checkpoint shards:  93%|█████████▎| 14/15 [00:13<00:00,  1.02it/s]
+2024-04-16 11:21:02 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [00:14<00:00,  1.10it/s]
+2024-04-16 11:21:02 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [00:14<00:00,  1.04it/s]
+2024-04-16 11:21:02 | ERROR | stderr | 
+2024-04-16 11:21:02 | INFO | model_worker | Register to controller
+2024-04-16 11:21:02 | ERROR | stderr | INFO:     Started server process [2663519]
+2024-04-16 11:21:02 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-16 11:21:02 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-16 11:21:02 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:20002 (Press CTRL+C to quit)
+2024-04-16 11:21:47 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:22:32 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:23:17 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:24:02 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:24:47 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:25:32 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:26:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:27:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:27:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:28:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:29:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:30:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:30:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:31:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:32:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:33:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:33:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:34:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:35:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:36:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:36:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:37:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:38:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:39:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:39:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:40:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:41:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:42:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:42:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:43:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:44:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:45:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:45:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:46:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:47:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:48:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:48:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:49:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:50:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:51:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:51:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:52:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:53:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:54:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:54:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:55:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:56:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:57:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:57:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:58:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 11:59:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:00:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:00:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:01:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:02:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:03:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:03:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:04:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:05:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:06:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:06:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:07:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:08:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:09:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:09:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:10:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:11:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:12:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:12:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:13:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:14:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:15:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:15:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:16:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:17:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:18:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:18:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:19:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:20:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:21:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:21:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:22:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:23:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:24:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:24:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:25:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:26:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:27:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:27:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:28:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:29:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:30:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:30:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:31:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:32:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:33:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:33:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:34:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:35:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:36:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:36:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:37:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:38:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:39:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:39:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:40:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:41:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:42:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:42:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:43:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:44:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:45:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:45:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:46:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:47:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:48:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:48:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:49:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:50:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:51:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:51:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:52:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:53:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:54:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:54:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:55:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:56:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:57:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:57:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:58:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 12:59:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:00:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:00:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:01:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:02:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:03:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:03:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:04:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:05:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:06:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:06:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:07:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:08:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:09:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:09:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:10:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:11:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:12:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:12:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:13:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:14:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:15:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:15:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:16:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:17:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:18:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:18:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:19:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:20:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:21:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:21:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:22:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:23:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:24:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:24:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:25:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:26:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:27:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:27:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:28:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:29:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:30:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:30:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:31:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:32:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:33:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:33:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:34:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:35:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:36:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:36:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:37:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:38:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:39:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:39:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:40:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:41:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:42:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:42:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:43:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:44:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:45:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:45:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:46:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:47:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:48:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:48:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:49:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:50:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:51:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:51:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:52:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:53:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:54:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:54:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:55:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:56:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:57:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:57:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:58:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 13:59:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:00:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:00:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:01:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:02:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:03:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:03:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:04:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:05:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:06:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:06:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:07:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:08:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:09:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:09:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:10:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:11:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:12:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:12:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:13:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:14:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:15:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:15:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:16:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:17:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 
+2024-04-16 14:18:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: 0bb0e297. 

@@ -1,0 +1,45 @@
+2024-03-31 20:17:03 | INFO | stdout | INFO:     127.0.0.1:58422 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-01 09:57:23 | INFO | stdout | INFO:     127.0.0.1:44420 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-01 15:35:13 | INFO | stdout | INFO:     127.0.0.1:55694 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39604 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39616 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39622 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39624 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39636 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39652 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39658 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39664 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:31 | INFO | stdout | INFO:     127.0.0.1:39668 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39680 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39694 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39706 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39708 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39718 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39728 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39744 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39752 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39760 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:32 | INFO | stdout | INFO:     127.0.0.1:39772 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 15:36:33 | INFO | stdout | INFO:     127.0.0.1:39782 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:39:07 | INFO | stdout | INFO:     127.0.0.1:39760 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-01 16:39:29 | INFO | stdout | INFO:     127.0.0.1:36026 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43376 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43390 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43406 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43416 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43426 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43438 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43452 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:11 | INFO | stdout | INFO:     127.0.0.1:43462 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43472 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43488 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43498 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43502 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43512 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43520 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43536 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43542 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:12 | INFO | stdout | INFO:     127.0.0.1:43554 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:13 | INFO | stdout | INFO:     127.0.0.1:43570 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:13 | INFO | stdout | INFO:     127.0.0.1:43574 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request
+2024-04-01 16:42:13 | INFO | stdout | INFO:     127.0.0.1:43580 - "POST /v1/chat/completions HTTP/1.1" 400 Bad Request

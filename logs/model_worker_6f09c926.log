@@ -1,0 +1,96 @@
+2024-02-22 15:22:43 | INFO | model_worker | Loading the model ['chatglm3-6b'] on worker 6f09c926 ...
+2024-02-22 15:22:43 | ERROR | stderr | Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]
+2024-02-22 15:22:52 | ERROR | stderr | Loading checkpoint shards:  14%|█▍        | 1/7 [00:08<00:52,  8.70s/it]
+2024-02-22 15:23:11 | ERROR | stderr | Loading checkpoint shards:  29%|██▊       | 2/7 [00:27<01:14, 14.84s/it]
+2024-02-22 15:23:26 | ERROR | stderr | Loading checkpoint shards:  43%|████▎     | 3/7 [00:42<00:59, 14.90s/it]
+2024-02-22 15:23:38 | ERROR | stderr | Loading checkpoint shards:  57%|█████▋    | 4/7 [00:54<00:41, 13.79s/it]
+2024-02-22 15:23:49 | ERROR | stderr | Loading checkpoint shards:  71%|███████▏  | 5/7 [01:05<00:25, 12.61s/it]
+2024-02-22 15:24:00 | ERROR | stderr | Loading checkpoint shards:  86%|████████▌ | 6/7 [01:16<00:12, 12.26s/it]
+2024-02-22 15:24:05 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 7/7 [01:21<00:00,  9.75s/it]
+2024-02-22 15:24:05 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 7/7 [01:21<00:00, 11.65s/it]
+2024-02-22 15:24:05 | ERROR | stderr | 
+2024-02-22 15:24:09 | INFO | model_worker | Register to controller
+2024-02-22 15:24:09 | ERROR | stderr | INFO:     Started server process [1704609]
+2024-02-22 15:24:09 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-02-22 15:24:09 | ERROR | stderr | INFO:     Application startup complete.
+2024-02-22 15:24:09 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:20002 (Press CTRL+C to quit)
+2024-02-22 15:24:43 | INFO | stdout | INFO:     127.0.0.1:47526 - "POST /worker_get_conv_template HTTP/1.1" 200 OK
+2024-02-22 15:24:43 | INFO | stdout | INFO:     127.0.0.1:47536 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:24:43 | INFO | stdout | INFO:     127.0.0.1:47552 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:24:43 | INFO | stdout | INFO:     127.0.0.1:47554 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:24:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 1. worker_id: 6f09c926. 
+2024-02-22 15:24:59 | INFO | stdout | INFO:     127.0.0.1:50370 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:24:59 | INFO | stdout | INFO:     127.0.0.1:50376 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:24:59 | INFO | stdout | INFO:     127.0.0.1:50382 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:18 | INFO | stdout | INFO:     127.0.0.1:34706 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:18 | INFO | stdout | INFO:     127.0.0.1:34712 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:18 | INFO | stdout | INFO:     127.0.0.1:34714 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:24 | INFO | stdout | INFO:     127.0.0.1:34726 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:24 | INFO | stdout | INFO:     127.0.0.1:34732 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:24 | INFO | stdout | INFO:     127.0.0.1:34736 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:29 | INFO | stdout | INFO:     127.0.0.1:53146 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:29 | INFO | stdout | INFO:     127.0.0.1:53156 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:29 | INFO | stdout | INFO:     127.0.0.1:53158 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:36 | INFO | stdout | INFO:     127.0.0.1:45896 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:36 | INFO | stdout | INFO:     127.0.0.1:45910 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:36 | INFO | stdout | INFO:     127.0.0.1:45914 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: 6f09c926. 
+2024-02-22 15:25:39 | INFO | stdout | INFO:     127.0.0.1:45918 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:39 | INFO | stdout | INFO:     127.0.0.1:45930 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:39 | INFO | stdout | INFO:     127.0.0.1:45934 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:45 | INFO | stdout | INFO:     127.0.0.1:45950 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:45 | INFO | stdout | INFO:     127.0.0.1:45960 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:45 | INFO | stdout | INFO:     127.0.0.1:45974 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:51 | INFO | stdout | INFO:     127.0.0.1:42770 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:51 | INFO | stdout | INFO:     127.0.0.1:42776 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:51 | INFO | stdout | INFO:     127.0.0.1:42788 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:55 | INFO | stdout | INFO:     127.0.0.1:34820 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:55 | INFO | stdout | INFO:     127.0.0.1:34828 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:55 | INFO | stdout | INFO:     127.0.0.1:34838 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:25:59 | INFO | stdout | INFO:     127.0.0.1:34842 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:25:59 | INFO | stdout | INFO:     127.0.0.1:34848 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:25:59 | INFO | stdout | INFO:     127.0.0.1:34860 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:26:08 | INFO | stdout | INFO:     127.0.0.1:48152 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:26:08 | INFO | stdout | INFO:     127.0.0.1:48164 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:26:08 | INFO | stdout | INFO:     127.0.0.1:48174 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:26:20 | INFO | stdout | INFO:     127.0.0.1:50494 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:26:20 | INFO | stdout | INFO:     127.0.0.1:50502 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:26:20 | INFO | stdout | INFO:     127.0.0.1:50516 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:26:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 13. worker_id: 6f09c926. 
+2024-02-22 15:26:30 | INFO | stdout | INFO:     127.0.0.1:36860 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:26:30 | INFO | stdout | INFO:     127.0.0.1:36874 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:26:31 | INFO | stdout | INFO:     127.0.0.1:36878 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:26:43 | INFO | stdout | INFO:     127.0.0.1:56758 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 15:26:43 | INFO | stdout | INFO:     127.0.0.1:56768 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 15:26:43 | INFO | stdout | INFO:     127.0.0.1:56780 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 15:27:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:27:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:28:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:29:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:30:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:30:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:31:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:32:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:33:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:33:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:34:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:35:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:36:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:36:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:37:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:38:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:39:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:39:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:40:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:41:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:42:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:42:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:43:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:44:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:45:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:45:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:46:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:47:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:48:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:48:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 
+2024-02-22 15:49:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 15. worker_id: 6f09c926. 

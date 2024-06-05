@@ -1,0 +1,6 @@
+2024-03-04 16:27:31 | INFO | stdout | INFO:     127.0.0.1:49406 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-04 16:59:13 | INFO | stdout | INFO:     127.0.0.1:37350 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-04 17:14:26 | INFO | stdout | INFO:     127.0.0.1:49654 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-05 11:39:19 | INFO | stdout | INFO:     127.0.0.1:37926 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-05 15:44:30 | INFO | stdout | INFO:     127.0.0.1:48394 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-05 15:44:43 | INFO | stdout | INFO:     127.0.0.1:51204 - "POST /v1/chat/completions HTTP/1.1" 200 OK

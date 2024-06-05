@@ -1,0 +1,587 @@
+2024-02-22 09:09:09 | INFO | model_worker | Loading the model ['chatglm3-6b'] on worker f169d9fa ...
+2024-02-22 09:09:09 | ERROR | stderr | Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]
+2024-02-22 09:09:10 | ERROR | stderr | Loading checkpoint shards:  14%|█▍        | 1/7 [00:00<00:01,  3.03it/s]
+2024-02-22 09:09:10 | ERROR | stderr | Loading checkpoint shards:  29%|██▊       | 2/7 [00:00<00:01,  3.08it/s]
+2024-02-22 09:09:10 | ERROR | stderr | Loading checkpoint shards:  43%|████▎     | 3/7 [00:00<00:01,  3.14it/s]
+2024-02-22 09:09:10 | ERROR | stderr | Loading checkpoint shards:  57%|█████▋    | 4/7 [00:01<00:00,  3.14it/s]
+2024-02-22 09:09:11 | ERROR | stderr | Loading checkpoint shards:  71%|███████▏  | 5/7 [00:01<00:00,  2.96it/s]
+2024-02-22 09:09:11 | ERROR | stderr | Loading checkpoint shards:  86%|████████▌ | 6/7 [00:02<00:00,  2.75it/s]
+2024-02-22 09:09:12 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 7/7 [00:02<00:00,  3.00it/s]
+2024-02-22 09:09:12 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 7/7 [00:02<00:00,  2.99it/s]
+2024-02-22 09:09:12 | ERROR | stderr | 
+2024-02-22 09:09:15 | INFO | model_worker | Register to controller
+2024-02-22 09:09:15 | ERROR | stderr | INFO:     Started server process [1619292]
+2024-02-22 09:09:15 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-02-22 09:09:15 | ERROR | stderr | INFO:     Application startup complete.
+2024-02-22 09:09:15 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:20002 (Press CTRL+C to quit)
+2024-02-22 09:09:56 | INFO | stdout | INFO:     127.0.0.1:42304 - "POST /worker_get_conv_template HTTP/1.1" 200 OK
+2024-02-22 09:09:56 | INFO | stdout | INFO:     127.0.0.1:42306 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 09:09:56 | INFO | stdout | INFO:     127.0.0.1:42318 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 09:09:56 | INFO | stdout | INFO:     127.0.0.1:42324 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 09:10:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: f169d9fa. 
+2024-02-22 09:10:04 | INFO | stdout | INFO:     127.0.0.1:42334 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 09:10:04 | INFO | stdout | INFO:     127.0.0.1:42348 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 09:10:04 | INFO | stdout | INFO:     127.0.0.1:42358 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 09:10:13 | INFO | stdout | INFO:     127.0.0.1:34150 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 09:10:13 | INFO | stdout | INFO:     127.0.0.1:34158 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 09:10:13 | INFO | stdout | INFO:     127.0.0.1:34164 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 09:10:20 | INFO | stdout | INFO:     127.0.0.1:39624 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 09:10:20 | INFO | stdout | INFO:     127.0.0.1:39632 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 09:10:20 | INFO | stdout | INFO:     127.0.0.1:39634 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 09:10:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: f169d9fa. 
+2024-02-22 09:11:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: f169d9fa. 
+2024-02-22 09:12:15 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: f169d9fa. 
+2024-02-22 09:13:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: f169d9fa. 
+2024-02-22 09:13:37 | INFO | stdout | INFO:     127.0.0.1:49510 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 09:13:37 | INFO | stdout | INFO:     127.0.0.1:49524 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 09:13:37 | INFO | stdout | INFO:     127.0.0.1:49534 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 09:13:42 | INFO | stdout | INFO:     127.0.0.1:49540 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 09:13:42 | INFO | stdout | INFO:     127.0.0.1:49548 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 09:13:42 | INFO | stdout | INFO:     127.0.0.1:49562 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 09:13:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: f169d9fa. 
+2024-02-22 09:13:48 | INFO | stdout | INFO:     127.0.0.1:60948 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 09:13:48 | INFO | stdout | INFO:     127.0.0.1:60954 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 09:13:48 | INFO | stdout | INFO:     127.0.0.1:60966 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 09:14:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:15:15 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:16:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:16:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:17:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:18:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:19:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:19:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:20:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:21:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:22:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:22:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:23:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:24:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:25:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:25:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:26:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:27:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:28:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:28:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:29:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:30:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:31:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:31:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:32:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:33:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:34:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:34:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:35:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:36:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:37:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:37:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:38:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:39:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:40:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:40:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:41:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:42:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:43:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:43:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:44:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:45:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:46:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:46:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:47:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:48:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:49:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:49:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:50:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:51:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:52:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:52:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:53:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:54:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:55:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:55:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:56:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:57:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:58:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:58:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 09:59:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:00:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:01:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:01:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:02:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:03:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:04:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:04:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:05:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:06:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:07:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:07:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:08:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:09:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:10:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:10:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:11:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:12:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:13:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:13:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:14:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:15:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:16:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:16:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:17:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:18:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:19:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:19:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:20:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:21:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 7. worker_id: f169d9fa. 
+2024-02-22 10:21:44 | INFO | stdout | INFO:     127.0.0.1:59480 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 10:21:44 | INFO | stdout | INFO:     127.0.0.1:59496 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 10:21:44 | INFO | stdout | INFO:     127.0.0.1:59508 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 10:22:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:22:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:23:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:24:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:25:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:25:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:26:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:27:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:28:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:28:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:29:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:30:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:31:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:31:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:32:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:33:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:34:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:34:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:35:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:36:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:37:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:37:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:38:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:39:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:40:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:40:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:41:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:42:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:43:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 8. worker_id: f169d9fa. 
+2024-02-22 10:43:41 | INFO | stdout | INFO:     127.0.0.1:33604 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 10:43:41 | INFO | stdout | INFO:     127.0.0.1:33610 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 10:43:41 | INFO | stdout | INFO:     127.0.0.1:33626 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 10:43:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 9. worker_id: f169d9fa. 
+2024-02-22 10:44:01 | INFO | stdout | INFO:     127.0.0.1:34818 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 10:44:01 | INFO | stdout | INFO:     127.0.0.1:34828 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 10:44:01 | INFO | stdout | INFO:     127.0.0.1:34842 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 10:44:14 | INFO | stdout | INFO:     127.0.0.1:35384 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 10:44:14 | INFO | stdout | INFO:     127.0.0.1:35394 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 10:44:15 | INFO | stdout | INFO:     127.0.0.1:35410 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 10:44:27 | INFO | stdout | INFO:     127.0.0.1:60908 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 10:44:27 | INFO | stdout | INFO:     127.0.0.1:60918 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 10:44:27 | INFO | stdout | INFO:     127.0.0.1:60926 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 10:44:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 12. worker_id: f169d9fa. 
+2024-02-22 10:44:41 | INFO | stdout | INFO:     127.0.0.1:47706 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 10:44:41 | INFO | stdout | INFO:     127.0.0.1:47722 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 10:44:41 | INFO | stdout | INFO:     127.0.0.1:47730 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 10:45:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:46:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:46:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:47:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:48:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:49:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:49:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:50:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:51:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:52:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:52:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:53:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:54:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:55:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:55:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:56:37 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:57:22 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:58:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:58:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 10:59:37 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:00:22 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:01:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:01:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:02:37 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:03:22 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:04:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:04:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:05:37 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:06:22 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:07:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:07:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:08:37 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:09:22 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:10:08 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:10:53 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:11:38 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:12:23 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:13:08 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: f169d9fa. 
+2024-02-22 11:13:18 | INFO | stdout | INFO:     127.0.0.1:49962 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:13:18 | INFO | stdout | INFO:     127.0.0.1:49966 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:13:18 | INFO | stdout | INFO:     127.0.0.1:49980 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:13:25 | INFO | stdout | INFO:     127.0.0.1:49988 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:13:25 | INFO | stdout | INFO:     127.0.0.1:49998 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:13:25 | INFO | stdout | INFO:     127.0.0.1:50014 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:13:53 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 15. worker_id: f169d9fa. 
+2024-02-22 11:13:55 | INFO | stdout | INFO:     127.0.0.1:37202 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:13:55 | INFO | stdout | INFO:     127.0.0.1:37208 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:13:55 | INFO | stdout | INFO:     127.0.0.1:37224 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:13:58 | INFO | stdout | INFO:     127.0.0.1:36902 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:13:58 | INFO | stdout | INFO:     127.0.0.1:36916 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:13:58 | INFO | stdout | INFO:     127.0.0.1:36924 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:04 | INFO | stdout | INFO:     127.0.0.1:36926 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:04 | INFO | stdout | INFO:     127.0.0.1:36928 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:04 | INFO | stdout | INFO:     127.0.0.1:36940 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:09 | INFO | stdout | INFO:     127.0.0.1:36798 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:09 | INFO | stdout | INFO:     127.0.0.1:36814 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:09 | INFO | stdout | INFO:     127.0.0.1:36828 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:13 | INFO | stdout | INFO:     127.0.0.1:36834 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:13 | INFO | stdout | INFO:     127.0.0.1:36842 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:14 | INFO | stdout | INFO:     127.0.0.1:36852 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:28 | INFO | stdout | INFO:     127.0.0.1:37736 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:28 | INFO | stdout | INFO:     127.0.0.1:37752 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:28 | INFO | stdout | INFO:     127.0.0.1:37756 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:34 | INFO | stdout | INFO:     127.0.0.1:37766 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:34 | INFO | stdout | INFO:     127.0.0.1:37778 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:34 | INFO | stdout | INFO:     127.0.0.1:37780 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:38 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 22. worker_id: f169d9fa. 
+2024-02-22 11:14:39 | INFO | stdout | INFO:     127.0.0.1:47668 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:39 | INFO | stdout | INFO:     127.0.0.1:47676 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:39 | INFO | stdout | INFO:     127.0.0.1:47682 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:42 | INFO | stdout | INFO:     127.0.0.1:47692 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:42 | INFO | stdout | INFO:     127.0.0.1:47700 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:42 | INFO | stdout | INFO:     127.0.0.1:47702 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:14:50 | INFO | stdout | INFO:     127.0.0.1:45534 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:14:50 | INFO | stdout | INFO:     127.0.0.1:45548 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:14:51 | INFO | stdout | INFO:     127.0.0.1:45550 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:15:00 | INFO | stdout | INFO:     127.0.0.1:58850 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:15:00 | INFO | stdout | INFO:     127.0.0.1:58852 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:15:00 | INFO | stdout | INFO:     127.0.0.1:58864 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:15:09 | INFO | stdout | INFO:     127.0.0.1:34304 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:15:09 | INFO | stdout | INFO:     127.0.0.1:34316 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:15:09 | INFO | stdout | INFO:     127.0.0.1:34320 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:15:23 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 27. worker_id: f169d9fa. 
+2024-02-22 11:15:25 | INFO | stdout | INFO:     127.0.0.1:53604 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:15:25 | INFO | stdout | INFO:     127.0.0.1:53610 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:15:25 | INFO | stdout | INFO:     127.0.0.1:53620 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:15:40 | INFO | stdout | INFO:     127.0.0.1:43210 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:15:40 | INFO | stdout | INFO:     127.0.0.1:43222 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:15:40 | INFO | stdout | INFO:     127.0.0.1:43236 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:15:46 | INFO | stdout | INFO:     127.0.0.1:51128 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:15:46 | INFO | stdout | INFO:     127.0.0.1:51132 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:15:46 | INFO | stdout | INFO:     127.0.0.1:51146 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:15:59 | INFO | stdout | INFO:     127.0.0.1:41178 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:15:59 | INFO | stdout | INFO:     127.0.0.1:41182 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:15:59 | INFO | stdout | INFO:     127.0.0.1:41192 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:16:07 | INFO | stdout | INFO:     127.0.0.1:55954 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:16:07 | INFO | stdout | INFO:     127.0.0.1:55962 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:16:07 | INFO | stdout | INFO:     127.0.0.1:55978 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:16:08 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=4, locked=False). call_ct: 32. worker_id: f169d9fa. 
+2024-02-22 11:16:18 | INFO | stdout | INFO:     127.0.0.1:34894 - "POST /model_details HTTP/1.1" 200 OK
+2024-02-22 11:16:18 | INFO | stdout | INFO:     127.0.0.1:34896 - "POST /count_token HTTP/1.1" 200 OK
+2024-02-22 11:16:18 | INFO | stdout | INFO:     127.0.0.1:34908 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-02-22 11:16:53 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:17:38 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:18:23 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:19:08 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:19:53 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:20:38 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:21:23 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:22:08 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:22:53 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:23:38 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:24:23 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:25:08 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:25:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:26:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:27:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:28:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:28:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:29:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:30:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:31:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:31:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:32:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:33:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:34:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:34:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:35:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:36:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:37:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:37:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:38:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:39:24 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:40:09 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:40:54 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:41:39 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:42:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:43:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:43:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:44:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:45:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:46:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:46:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:47:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:48:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:49:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:49:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:50:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:51:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:52:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:52:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:53:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:54:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:55:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:55:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:56:40 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:57:25 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:58:10 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:58:55 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 11:59:41 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:00:26 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:01:11 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:01:56 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:02:41 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:03:26 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:04:11 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:04:56 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:05:41 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:06:26 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:07:11 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:07:56 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:08:41 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:09:26 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:10:11 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:10:56 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:11:41 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:12:26 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:13:11 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:13:56 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:14:41 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:15:26 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:16:11 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:16:56 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:17:41 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:18:27 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:19:12 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:19:57 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:20:42 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:21:27 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:22:12 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:22:57 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:23:42 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:24:27 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:25:12 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:25:57 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:26:42 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:27:27 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:28:12 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:28:57 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:29:42 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:30:27 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:31:12 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:31:57 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:32:42 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:33:28 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:34:13 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:34:58 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:35:43 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:36:28 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:37:13 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:37:58 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:38:43 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:39:28 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:40:13 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:40:58 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:41:43 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:42:28 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:43:13 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:43:58 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:44:43 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:45:28 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:46:13 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:46:58 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:47:43 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:48:28 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:49:13 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:49:58 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:50:43 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:51:29 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:52:14 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:52:59 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:53:44 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:54:29 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:55:14 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:55:59 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:56:44 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:57:29 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:58:14 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:58:59 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 12:59:44 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:00:29 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:01:14 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:01:59 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:02:44 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:03:29 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:04:14 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:04:59 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:05:44 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:06:29 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:07:14 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:07:59 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:08:44 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:09:29 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:10:14 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:11:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:11:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:12:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:13:15 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:14:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:14:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:15:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:16:15 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:17:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:17:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:18:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:19:15 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:20:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:20:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:21:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:22:15 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:23:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:23:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:24:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:25:15 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:26:00 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:26:45 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:27:30 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:28:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:29:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:29:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:30:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:31:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:32:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:32:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:33:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:34:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:35:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:35:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:36:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:37:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:38:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:38:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:39:31 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:40:16 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:41:01 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:41:46 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:42:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:43:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:44:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:44:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:45:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:46:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:47:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:47:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:48:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:49:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:50:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:50:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:51:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:52:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:53:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:53:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:54:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:55:17 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:56:02 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:56:47 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:57:32 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:58:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:59:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 13:59:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:00:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:01:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:02:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:02:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:03:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:04:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:05:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:05:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:06:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:07:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:08:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:08:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:09:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:10:18 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:11:03 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:11:48 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:12:33 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:13:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:14:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:14:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:15:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:16:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:17:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:17:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:18:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:19:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:20:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:20:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:21:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:22:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:23:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:23:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:24:34 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:25:19 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:26:04 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:26:49 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:27:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:28:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:29:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:29:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:30:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:31:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:32:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:32:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:33:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:34:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:35:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:35:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:36:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:37:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:38:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:38:50 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:39:35 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:40:20 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:41:05 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:41:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:42:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:43:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:44:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:44:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:45:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:46:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:47:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:47:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:48:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:49:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:50:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:50:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:51:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:52:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:53:06 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:53:51 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:54:36 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:55:21 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:56:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:56:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:57:37 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:58:22 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:59:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 14:59:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 15:00:37 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 15:01:22 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 15:02:07 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 
+2024-02-22 15:02:52 | INFO | model_worker | Send heart beat. Models: ['chatglm3-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 33. worker_id: f169d9fa. 

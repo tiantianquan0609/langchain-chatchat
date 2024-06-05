@@ -1,0 +1,49 @@
+2024-02-22 15:52:47 | INFO | model_worker | Loading the model ['Qwen-14B-Chat'] on worker 8f0c24bf ...
+2024-02-22 15:52:47 | ERROR | stderr | Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]
+2024-02-22 15:52:51 | ERROR | stderr | Loading checkpoint shards:   7%|▋         | 1/15 [00:03<00:48,  3.43s/it]
+2024-02-22 15:52:53 | ERROR | stderr | Loading checkpoint shards:  13%|█▎        | 2/15 [00:05<00:32,  2.51s/it]
+2024-02-22 15:52:58 | ERROR | stderr | Loading checkpoint shards:  20%|██        | 3/15 [00:11<00:48,  4.01s/it]
+2024-02-22 15:53:04 | ERROR | stderr | Loading checkpoint shards:  27%|██▋       | 4/15 [00:16<00:50,  4.57s/it]
+2024-02-22 15:53:11 | ERROR | stderr | Loading checkpoint shards:  33%|███▎      | 5/15 [00:23<00:55,  5.54s/it]
+2024-02-22 15:53:15 | ERROR | stderr | Loading checkpoint shards:  40%|████      | 6/15 [00:27<00:45,  5.06s/it]
+2024-02-22 15:53:27 | ERROR | stderr | Loading checkpoint shards:  47%|████▋     | 7/15 [00:39<00:58,  7.31s/it]
+2024-02-22 15:53:34 | ERROR | stderr | Loading checkpoint shards:  53%|█████▎    | 8/15 [00:47<00:51,  7.31s/it]
+2024-02-22 15:53:36 | ERROR | stderr | Loading checkpoint shards:  60%|██████    | 9/15 [00:48<00:32,  5.45s/it]
+2024-02-22 15:53:36 | ERROR | stderr | Loading checkpoint shards:  67%|██████▋   | 10/15 [00:48<00:19,  3.86s/it]
+2024-02-22 15:53:36 | ERROR | stderr | Loading checkpoint shards:  73%|███████▎  | 11/15 [00:49<00:11,  2.78s/it]
+2024-02-22 15:53:37 | ERROR | stderr | Loading checkpoint shards:  80%|████████  | 12/15 [00:49<00:06,  2.06s/it]
+2024-02-22 15:53:37 | ERROR | stderr | Loading checkpoint shards:  87%|████████▋ | 13/15 [00:50<00:03,  1.58s/it]
+2024-02-22 15:53:38 | ERROR | stderr | Loading checkpoint shards:  93%|█████████▎| 14/15 [00:50<00:01,  1.24s/it]
+2024-02-22 15:53:38 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [00:50<00:00,  1.00it/s]
+2024-02-22 15:53:38 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [00:50<00:00,  3.40s/it]
+2024-02-22 15:53:38 | ERROR | stderr | 
+2024-02-22 15:53:40 | ERROR | stderr | Process model_worker - Qwen-14B-Chat:
+2024-02-22 15:53:40 | ERROR | stderr | Traceback (most recent call last):
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+2024-02-22 15:53:40 | ERROR | stderr |     self.run()
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/multiprocessing/process.py", line 108, in run
+2024-02-22 15:53:40 | ERROR | stderr |     self._target(*self._args, **self._kwargs)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/data/Langchain-Chatchat-0.2.9/startup.py", line 387, in run_model_worker
+2024-02-22 15:53:40 | ERROR | stderr |     app = create_model_worker_app(log_level=log_level, **kwargs)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/data/Langchain-Chatchat-0.2.9/startup.py", line 215, in create_model_worker_app
+2024-02-22 15:53:40 | ERROR | stderr |     worker = ModelWorker(
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/fastchat/serve/model_worker.py", line 77, in __init__
+2024-02-22 15:53:40 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/fastchat/model/model_adapter.py", line 362, in load_model
+2024-02-22 15:53:40 | ERROR | stderr |     model.to(device)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2595, in to
+2024-02-22 15:53:40 | ERROR | stderr |     return super().to(*args, **kwargs)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1160, in to
+2024-02-22 15:53:40 | ERROR | stderr |     return self._apply(convert)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+2024-02-22 15:53:40 | ERROR | stderr |     module._apply(fn)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+2024-02-22 15:53:40 | ERROR | stderr |     module._apply(fn)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+2024-02-22 15:53:40 | ERROR | stderr |     module._apply(fn)
+2024-02-22 15:53:40 | ERROR | stderr |   [Previous line repeated 2 more times]
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 833, in _apply
+2024-02-22 15:53:40 | ERROR | stderr |     param_applied = fn(param)
+2024-02-22 15:53:40 | ERROR | stderr |   File "/root/anaconda3/envs/langchain-v0.2.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1158, in convert
+2024-02-22 15:53:40 | ERROR | stderr |     return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+2024-02-22 15:53:40 | ERROR | stderr | torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 134.00 MiB. GPU 0 has a total capacty of 31.74 GiB of which 124.38 MiB is free. Process 1711940 has 26.72 GiB memory in use. Including non-PyTorch memory, this process has 4.89 GiB memory in use. Of the allocated memory 4.59 GiB is allocated by PyTorch, and 1.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

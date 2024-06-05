@@ -1,0 +1,13 @@
+2024-03-25 14:44:56 | INFO | stdout | INFO:     127.0.0.1:33884 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:07:14 | INFO | stdout | INFO:     127.0.0.1:44530 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:10:38 | INFO | stdout | INFO:     127.0.0.1:60738 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:15:38 | INFO | stdout | INFO:     127.0.0.1:43590 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:15:46 | INFO | stdout | INFO:     127.0.0.1:41584 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:15:56 | INFO | stdout | INFO:     127.0.0.1:53746 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:16:19 | INFO | stdout | INFO:     127.0.0.1:36206 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:16:51 | INFO | stdout | INFO:     127.0.0.1:58462 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-25 15:22:54 | INFO | stdout | INFO:     127.0.0.1:51054 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-26 10:16:22 | INFO | stdout | INFO:     127.0.0.1:37282 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-26 10:18:19 | INFO | stdout | INFO:     127.0.0.1:43654 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-26 10:19:31 | INFO | stdout | INFO:     127.0.0.1:37294 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-03-26 10:22:38 | INFO | stdout | INFO:     127.0.0.1:38454 - "POST /v1/chat/completions HTTP/1.1" 200 OK

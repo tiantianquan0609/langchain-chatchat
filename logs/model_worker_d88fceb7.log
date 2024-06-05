@@ -1,0 +1,403 @@
+2024-04-15 11:13:58 | INFO | model_worker | Loading the model ['Qwen-14B-Chat'] on worker d88fceb7 ...
+2024-04-15 11:13:59 | ERROR | stderr | Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]
+2024-04-15 11:14:00 | ERROR | stderr | Loading checkpoint shards:   7%|▋         | 1/15 [00:01<00:19,  1.39s/it]
+2024-04-15 11:14:01 | ERROR | stderr | Loading checkpoint shards:  13%|█▎        | 2/15 [00:02<00:15,  1.23s/it]
+2024-04-15 11:14:02 | ERROR | stderr | Loading checkpoint shards:  20%|██        | 3/15 [00:03<00:13,  1.11s/it]
+2024-04-15 11:14:03 | ERROR | stderr | Loading checkpoint shards:  27%|██▋       | 4/15 [00:04<00:11,  1.03s/it]
+2024-04-15 11:14:04 | ERROR | stderr | Loading checkpoint shards:  33%|███▎      | 5/15 [00:05<00:09,  1.00it/s]
+2024-04-15 11:14:05 | ERROR | stderr | Loading checkpoint shards:  40%|████      | 6/15 [00:06<00:08,  1.03it/s]
+2024-04-15 11:14:06 | ERROR | stderr | Loading checkpoint shards:  47%|████▋     | 7/15 [00:07<00:08,  1.05s/it]
+2024-04-15 11:14:07 | ERROR | stderr | Loading checkpoint shards:  53%|█████▎    | 8/15 [00:08<00:07,  1.01s/it]
+2024-04-15 11:14:08 | ERROR | stderr | Loading checkpoint shards:  60%|██████    | 9/15 [00:09<00:06,  1.01s/it]
+2024-04-15 11:14:09 | ERROR | stderr | Loading checkpoint shards:  67%|██████▋   | 10/15 [00:10<00:04,  1.02it/s]
+2024-04-15 11:14:10 | ERROR | stderr | Loading checkpoint shards:  73%|███████▎  | 11/15 [00:11<00:03,  1.02it/s]
+2024-04-15 11:14:11 | ERROR | stderr | Loading checkpoint shards:  80%|████████  | 12/15 [00:12<00:02,  1.00it/s]
+2024-04-15 11:14:12 | ERROR | stderr | Loading checkpoint shards:  87%|████████▋ | 13/15 [00:13<00:01,  1.01it/s]
+2024-04-15 11:14:13 | ERROR | stderr | Loading checkpoint shards:  93%|█████████▎| 14/15 [00:14<00:00,  1.05it/s]
+2024-04-15 11:14:14 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [00:14<00:00,  1.12it/s]
+2024-04-15 11:14:14 | ERROR | stderr | Loading checkpoint shards: 100%|██████████| 15/15 [00:14<00:00,  1.00it/s]
+2024-04-15 11:14:14 | ERROR | stderr | 
+2024-04-15 11:14:14 | INFO | model_worker | Register to controller
+2024-04-15 11:14:14 | ERROR | stderr | INFO:     Started server process [2307603]
+2024-04-15 11:14:14 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-15 11:14:14 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-15 11:14:14 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:20002 (Press CTRL+C to quit)
+2024-04-15 11:14:59 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: d88fceb7. 
+2024-04-15 11:15:44 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: d88fceb7. 
+2024-04-15 11:16:29 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: d88fceb7. 
+2024-04-15 11:16:40 | INFO | stdout | INFO:     127.0.0.1:34840 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 11:16:40 | INFO | stdout | INFO:     127.0.0.1:34848 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 11:16:40 | INFO | stdout | INFO:     127.0.0.1:34864 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 11:17:09 | INFO | stdout | INFO:     127.0.0.1:43026 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 11:17:09 | INFO | stdout | INFO:     127.0.0.1:43038 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 11:17:09 | INFO | stdout | INFO:     127.0.0.1:43048 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 11:17:14 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: d88fceb7. 
+2024-04-15 11:17:19 | INFO | stdout | INFO:     127.0.0.1:50070 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 11:17:19 | INFO | stdout | INFO:     127.0.0.1:50074 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 11:17:19 | INFO | stdout | INFO:     127.0.0.1:50086 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 11:17:59 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: d88fceb7. 
+2024-04-15 11:18:44 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: d88fceb7. 
+2024-04-15 11:19:29 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: d88fceb7. 
+2024-04-15 11:20:14 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: d88fceb7. 
+2024-04-15 11:20:59 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 3. worker_id: d88fceb7. 
+2024-04-15 11:21:01 | INFO | stdout | INFO:     127.0.0.1:49362 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 11:21:01 | INFO | stdout | INFO:     127.0.0.1:49376 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 11:21:01 | INFO | stdout | INFO:     127.0.0.1:49390 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 11:21:23 | INFO | stdout | INFO:     127.0.0.1:45270 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 11:21:23 | INFO | stdout | INFO:     127.0.0.1:45286 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 11:21:23 | INFO | stdout | INFO:     127.0.0.1:45292 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 11:21:44 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 5. worker_id: d88fceb7. 
+2024-04-15 11:21:48 | INFO | stdout | INFO:     127.0.0.1:41910 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 11:21:48 | INFO | stdout | INFO:     127.0.0.1:41920 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 11:21:48 | INFO | stdout | INFO:     127.0.0.1:41932 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 11:22:29 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:23:15 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:24:00 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:24:45 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:25:30 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:26:15 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:27:00 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:27:45 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:28:30 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:29:15 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:30:00 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:30:45 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:31:30 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:32:15 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:33:00 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:33:45 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:34:30 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:35:15 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:36:00 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:36:45 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:37:30 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:38:15 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:39:00 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:39:45 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:40:31 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:41:16 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:42:01 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:42:46 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:43:31 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:44:16 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:45:01 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:45:46 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:46:31 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:47:16 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:48:01 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:48:46 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:49:31 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:50:16 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:51:01 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:51:46 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:52:31 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:53:16 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:54:01 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:54:46 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:55:31 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:56:16 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:57:01 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:57:47 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:58:32 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 11:59:17 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:00:02 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:00:47 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:01:32 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:02:17 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:03:02 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:03:47 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:04:32 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:05:17 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:06:02 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:06:47 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:07:32 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:08:17 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:09:02 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:09:47 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:10:32 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:11:17 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:12:02 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:12:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:13:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:14:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:15:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:15:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:16:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:17:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:18:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:18:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:19:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:20:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:21:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:21:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:22:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:23:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:24:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:24:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:25:33 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:26:18 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:27:03 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:27:48 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:28:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:29:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:30:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:30:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:31:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:32:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:33:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:33:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:34:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:35:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:36:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:36:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:37:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:38:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:39:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:39:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:40:34 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:41:19 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:42:04 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:42:49 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:43:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:44:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:45:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:45:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:46:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:47:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:48:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:48:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:49:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:50:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:51:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:51:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:52:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:53:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:54:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:54:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:55:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:56:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:57:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:57:50 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:58:35 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 12:59:20 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:00:05 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:00:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:01:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:02:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:03:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:03:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:04:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:05:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:06:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:06:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:07:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:08:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:09:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:09:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:10:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:11:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:12:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:12:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:13:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:14:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:15:06 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:15:51 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:16:36 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:17:21 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:18:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:18:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:19:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:20:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:21:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:21:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:22:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:23:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:24:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:24:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:25:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:26:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:27:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:27:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:28:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:29:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:30:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:30:52 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:31:37 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:32:22 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:33:07 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:33:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:34:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:35:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:36:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:36:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:37:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:38:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:39:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:39:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:40:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:41:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:42:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:42:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:43:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:44:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:45:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:45:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:46:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:47:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:48:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:48:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:49:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:50:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:51:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:51:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:52:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:53:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:54:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:54:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:55:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:56:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:57:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:57:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:58:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 13:59:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 14:00:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 14:00:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 14:01:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 14:02:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: d88fceb7. 
+2024-04-15 14:02:27 | INFO | stdout | INFO:     127.0.0.1:54806 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 14:02:27 | INFO | stdout | INFO:     127.0.0.1:54808 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 14:02:27 | INFO | stdout | INFO:     127.0.0.1:54812 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 14:02:35 | INFO | stdout | INFO:     127.0.0.1:60868 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 14:02:35 | INFO | stdout | INFO:     127.0.0.1:60878 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 14:02:35 | INFO | stdout | INFO:     127.0.0.1:60884 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 14:02:44 | INFO | stdout | INFO:     127.0.0.1:60892 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 14:02:44 | INFO | stdout | INFO:     127.0.0.1:60896 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 14:02:44 | INFO | stdout | INFO:     127.0.0.1:60900 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 14:03:03 | INFO | stdout | INFO:     127.0.0.1:34646 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 14:03:03 | INFO | stdout | INFO:     127.0.0.1:34650 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 14:03:03 | INFO | stdout | INFO:     127.0.0.1:34652 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 14:03:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:03:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:04:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:05:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:06:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:06:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:07:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:08:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:09:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:09:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:10:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:11:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:12:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:12:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:13:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:14:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:15:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:15:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:16:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:17:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:18:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:18:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:19:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:20:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:21:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:21:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:22:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:23:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:24:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:24:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:25:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:26:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:27:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:27:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:28:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:29:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:30:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:30:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:31:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:32:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:33:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:33:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:34:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:35:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:36:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:36:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:37:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:38:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:39:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:39:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:40:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:41:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:42:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:42:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:43:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:44:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:45:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:45:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:46:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:47:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:48:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:48:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:49:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:50:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:51:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:51:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:52:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:53:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:54:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:54:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:55:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:56:27 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:57:12 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:57:57 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:58:42 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 14:59:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:00:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:00:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:01:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:02:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:03:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:03:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:04:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:05:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:06:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:06:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:07:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:08:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:09:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:09:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:10:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:11:28 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:12:13 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:12:58 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:13:43 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:14:29 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:15:14 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:15:59 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:16:44 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 10. worker_id: d88fceb7. 
+2024-04-15 15:17:06 | INFO | stdout | INFO:     127.0.0.1:51690 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 15:17:06 | INFO | stdout | INFO:     127.0.0.1:51698 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 15:17:06 | INFO | stdout | INFO:     127.0.0.1:51700 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 15:17:29 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: d88fceb7. 
+2024-04-15 15:18:14 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 11. worker_id: d88fceb7. 
+2024-04-15 15:18:50 | INFO | stdout | INFO:     127.0.0.1:34638 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 15:18:50 | INFO | stdout | INFO:     127.0.0.1:34654 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 15:18:50 | INFO | stdout | INFO:     127.0.0.1:34660 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 15:18:59 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=4, locked=False). call_ct: 12. worker_id: d88fceb7. 
+2024-04-15 15:19:39 | INFO | stdout | INFO:     127.0.0.1:58146 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 15:19:39 | INFO | stdout | INFO:     127.0.0.1:58160 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 15:19:39 | INFO | stdout | INFO:     127.0.0.1:58164 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 15:19:44 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: d88fceb7. 
+2024-04-15 15:20:29 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 13. worker_id: d88fceb7. 
+2024-04-15 15:21:12 | INFO | stdout | INFO:     127.0.0.1:58074 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 15:21:12 | INFO | stdout | INFO:     127.0.0.1:58076 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 15:21:12 | INFO | stdout | INFO:     127.0.0.1:58092 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 15:21:14 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=4, locked=False). call_ct: 14. worker_id: d88fceb7. 
+2024-04-15 15:21:31 | INFO | stdout | INFO:     127.0.0.1:58654 - "POST /model_details HTTP/1.1" 200 OK
+2024-04-15 15:21:31 | INFO | stdout | INFO:     127.0.0.1:58664 - "POST /count_token HTTP/1.1" 200 OK
+2024-04-15 15:21:31 | INFO | stdout | INFO:     127.0.0.1:58670 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-04-15 15:21:40 | INFO | stdout | INFO:     127.0.0.1:39138 - "POST /release HTTP/1.1" 200 OK
+2024-04-15 15:21:41 | ERROR | stderr | INFO:     Shutting down
+2024-04-15 15:21:41 | ERROR | stderr | INFO:     Waiting for application shutdown.
+2024-04-15 15:21:41 | ERROR | stderr | INFO:     Application shutdown complete.
+2024-04-15 15:21:41 | ERROR | stderr | INFO:     Finished server process [2307603]

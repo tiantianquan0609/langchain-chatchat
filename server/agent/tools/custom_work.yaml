@@ -1,0 +1,10 @@
+name: custom_work
+description: Useful for when you need to answer questions about simple calculations
+parameters:
+  type: object
+  properties:
+    query:
+      type: string
+      description: The query to be searched
+required:
+  - query

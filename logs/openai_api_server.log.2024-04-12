@@ -1,0 +1,6 @@
+2024-04-15 11:13:57 | ERROR | stderr | INFO:     Started server process [2307602]
+2024-04-15 11:13:57 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-15 11:13:57 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-15 11:13:57 | ERROR | stderr | ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 20000): address already in use
+2024-04-15 11:13:57 | ERROR | stderr | INFO:     Waiting for application shutdown.
+2024-04-15 11:13:57 | ERROR | stderr | INFO:     Application shutdown complete.

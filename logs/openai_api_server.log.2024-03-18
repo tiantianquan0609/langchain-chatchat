@@ -1,0 +1,1 @@
+2024-03-18 16:09:11 | INFO | stdout | INFO:     127.0.0.1:49538 - "POST /v1/chat/completions HTTP/1.1" 200 OK
